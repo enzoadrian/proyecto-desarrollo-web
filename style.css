@@ -47,10 +47,12 @@ align-items: flex-end;
 height: 100px;
 padding-left: 100px;}
 
-
+.barraNavegacion_items a {
+    transition: all, 0.5s;}
 
 .barraNavegacion_items a:hover{
-    border-bottom: 2px solid black;}
+    border-bottom: 2px solid black;
+    transform: scale(1.2);}
 
 .logo{display: flex;
 align-items: center;}
