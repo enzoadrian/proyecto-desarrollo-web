@@ -48,7 +48,7 @@ height: 100px;
 padding-left: 100px;}
 
 .barraNavegacion_items a {
-    transition: all, 0.5s;}
+    transition: all, 0.6s;}
 
 .barraNavegacion_items a:hover{
     border-bottom: 2px solid black;
