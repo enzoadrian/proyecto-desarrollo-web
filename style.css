@@ -33,9 +33,6 @@ font-family: 'Karla', sans-serif;}
     padding: 100px;}
 
 
-.productos_destacados{
-    display: flex;
-    justify-content: space-evenly;}
 
 
 .boton__catalogo{
@@ -79,7 +76,21 @@ font-family: 'Karla', sans-serif;}
     font-family: 'Karla', sans-serif;
 }
 /* main */
-main{min-height: 385px;}
+main{min-height: 495px;}
 /* footer */
-
     
+
+    /* catalogo */
+    .card-img-top{
+        height: 350px;
+       
+    }
+    .card{margin-top:20px ;}
+
+    @media only screen and (max-width:767px){
+        .banner{display: none;}
+        .titulo_banner{
+            display: none;
+        }
+        
+    }
