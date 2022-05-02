@@ -88,6 +88,12 @@ main{min-height: 495px;}
     }
     .card{margin-top:20px ;}
 
+    /* contacto */
+   .botonEnviar{
+       padding-left: 40%;
+   }
+   
+
     @media only screen and (max-width:767px){
         .banner{display: none;}
         .titulo_banner{
