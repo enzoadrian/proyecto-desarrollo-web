@@ -67,7 +67,8 @@ font-family: 'Karla', sans-serif;}
 }
 .barraNavegacion{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     
 }
 .nav-item{
