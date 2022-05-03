@@ -83,10 +83,13 @@ main{min-height: 495px;}
 
     /* catalogo */
     .card-img-top{
-        height: 350px;
-       
+        height: 350px}
+    .card{
+        margin-top:20px ;}
+    .textoCatalogo{
+        font-size:  60px;
+        font-family: 'Updock', cursive;
     }
-    .card{margin-top:20px ;}
 
     /* contacto */
    .botonEnviar{
