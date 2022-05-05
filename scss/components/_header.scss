@@ -1,0 +1,15 @@
+.logo{
+    height: 70px;
+    width: 70px;}
+.texto-logo{
+    font-size: 40px;
+    font-family: $font-family-secundario;
+    margin: 0px 20px;}
+.barraNavegacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+.nav-item{
+    font-size: 20px;
+    margin: 15px;
+    font-family:$font-family-principal;}
