@@ -6,10 +6,9 @@
     font-family: $font-family-secundario;
     margin: 0px 20px;}
 .barraNavegacion{
-    display: flex;
-    flex-direction: column;
-    align-items: center;}
+    @include flexbox(column,center,center);}
+    
 .nav-item{
-    font-size: 20px;
+    font-size: map-get($tamanio-tipografia,subtitulos );
     margin: 15px;
     font-family:$font-family-principal;}

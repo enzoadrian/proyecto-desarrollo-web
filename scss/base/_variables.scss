@@ -3,3 +3,23 @@ $font-size-titulo: 60px;
 $font-family-principal: 'Karla', sans-serif;
 $font-family-secundario: "Updock", cursive;
 $tamanio-fotos-md: 350px;
+
+
+$tamanio-tipografia:(
+    titulos: 22px,
+    subtitulos: 18px,
+    parrafo: 14px);
+
+    
+    %flex-jcenter{
+    display: flex;
+    justify-content: center;}
+
+    
+
+    @mixin flexbox($direction, $justify, $align) {
+        display: flex;
+        flex-direction: $direction;
+        justify-content: $justify ;
+        align-items: $align ; }
+    
