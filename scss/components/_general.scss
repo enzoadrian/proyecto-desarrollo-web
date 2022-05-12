@@ -9,9 +9,3 @@ font-family: $font-family-principal;}
 
 main{min-height:365px;}
 
-@media only screen and (max-width:767px){
-    .banner{display: none;}
-    .titulo_banner{
-        display: none;
-    }
-}
