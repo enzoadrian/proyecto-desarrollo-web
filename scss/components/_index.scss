@@ -28,20 +28,25 @@ padding-right: 90px;}
     width: fit-content;
     height: 45px;
     border: solid 2px white;
-    padding: 10px 5px;
+    padding: 10px;
     cursor: pointer;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    text-decoration: none;}
+    text-decoration: none;
+    @extend %flex-jcenter;}
 
     .boton_catalogo:hover{
         opacity: 0.7;
         color: #ffffff ;}
+
+             .padre_card{
+                 @extend %flex-jcenter; }
+          
         @media only screen and (max-width:767px){
             .banner{display: none;}
             .titulo_banner{
-                display: none;
-            }}
+                display: none;}
+       }
 
         
         
