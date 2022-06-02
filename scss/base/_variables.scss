@@ -4,19 +4,18 @@ $font-family-principal: 'Karla', sans-serif;
 $font-family-secundario: "Updock", cursive;
 $tamanio-fotos-md: 350px;
 
-/* get map */
+
 $tamanio-tipografia:(
     titulos: 22px,
     subtitulos: 18px,
     parrafo: 14px);
 
-    /* extend */
+    
     %flex-jcenter{
     display: flex;
     justify-content: center;}
 
     
-/* mixing */
     @mixin flexbox($direction, $justify, $align) {
         display: flex;
         flex-direction: $direction;

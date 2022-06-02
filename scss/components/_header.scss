@@ -6,8 +6,7 @@
     font-family: $font-family-secundario;
     margin: 0px 20px;
     color: black;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 .barraNavegacion{
     @include flexbox(column,center,center);}
@@ -17,7 +16,5 @@
     margin: 15px;
     font-family:$font-family-principal;}
 
-    
 .nav-link{
-    color: rgba(0, 0, 0, 0.952) !important;
-}
+    color: rgba(0, 0, 0, 0.952) !important;}

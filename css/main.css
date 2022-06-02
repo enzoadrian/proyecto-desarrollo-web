@@ -1,10 +1,7 @@
-/* get map */
-/* extend */
 .boton__catalogo, .boton_catalogo, .padre_card {
   display: flex;
   justify-content: center; }
 
-/* mixing */
 * {
   padding: 0;
   margin: 0; }
